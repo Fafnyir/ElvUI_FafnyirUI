@@ -32,6 +32,13 @@ if not E.db.movers then E.db.movers = {} end
 	--]]
 
 	--LAYOUT GOES HERE
+-- Private Settings
+E.private["nameplates"]["enable"] = false
+E.private["bags"]["enable"] = false
+E.private["skins"]["checkBoxSkin"] = false
+E.private["skins"]["parchmentRemoverEnable"] = true
+	
+-- Layout Settings
 E.db["actionbar"]["bar1"]["countFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["bar1"]["hotkeyFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["bar1"]["macroFont"] = "-FafnyirUI_Bold"
@@ -225,11 +232,11 @@ E.db["datatexts"]["panels"]["MinimapPanel"]["numPoints"] = 1
 E.db["datatexts"]["panels"]["MinimapPanel"]["panelTransparency"] = true
 E.db["datatexts"]["panels"]["RightChatDataPanel"]["enable"] = false
 E.db["datatexts"]["panels"]["RightMiniPanel"] = "ElvUI Config"
-E.db["general"]["afk"] = false
+E.db["general"]["afk"] = true
 E.db["general"]["altPowerBar"]["font"] = "-FafnyirUI"
 E.db["general"]["altPowerBar"]["fontSize"] = 14
 E.db["general"]["altPowerBar"]["statusBar"] = "- FafnyirUI Clean"
-E.db["general"]["autoAcceptInvite"] = true
+E.db["general"]["autoAcceptInvite"] = false
 E.db["general"]["backdropcolor"]["b"] = 0.18039215686275
 E.db["general"]["backdropcolor"]["g"] = 0.18039215686275
 E.db["general"]["backdropcolor"]["r"] = 0.18039215686275
@@ -251,7 +258,6 @@ E.db["general"]["totems"]["spacing"] = 1
 E.db["general"]["valuecolor"]["b"] = 0.99
 E.db["general"]["valuecolor"]["g"] = 0.99
 E.db["general"]["valuecolor"]["r"] = 0.99
-
 E.db["movers"]["AlertFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,49,-35"
 E.db["movers"]["AltPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,120"
 E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-457,-373"
@@ -309,10 +315,6 @@ E.db["movers"]["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,216"
 E.db["movers"]["VehicleLeaveButton"] = "BOTTOM,UIParent,BOTTOM,287,93"
 E.db["movers"]["VehicleSeatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,457,34"
 E.db["movers"]["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,36"
-
-E.private["skins"]["checkBoxSkin"] = false
-E.private["skins"]["parchmentRemoverEnable"] = true
-
 E.db["tooltip"]["font"] = "-FafnyirUI"
 E.db["tooltip"]["fontOutline"] = "OUTLINE"
 E.db["tooltip"]["headerFont"] = "-FafnyirUI_Bold"
@@ -861,10 +863,14 @@ local function InsertOptions()
 				type = "description",
 				name = format("%s is a layout for ElvUI.", MyPluginName),
 			},
-			spacer1 = {
-				order = 3,
+			logoicon = {
+				order = 4,
 				type = "description",
-				name = "\n\n\n",
+				name = "",
+				image = "Interface\\AddOns\\ElvUI_FafnyirUI\\logo.tga",
+				imageWidth = 256,
+				imageHeight = 128,
+				imageCoords = {0,1,0,1},
 			},
 			header2 = {
 				order = 4,
