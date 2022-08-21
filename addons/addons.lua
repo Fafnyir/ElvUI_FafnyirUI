@@ -21,7 +21,13 @@ end
 if IsAddOnLoaded('OmniCD') then
 	GNUI:LoadOmniCDProfile()
 	E:Print(L["'OmniCD' profile has been set."])
-end
+end
+-- Plater
+if IsAddOnLoaded('Plater') then
+	GNUI:LoadWDProfile()
+	E:Print(L["'Plater' profile has been set."])
+end
+
 -- WarpDeplete
 if IsAddOnLoaded('WarpDeplete') then
 	GNUI:LoadWDProfile()
