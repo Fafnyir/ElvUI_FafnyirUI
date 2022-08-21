@@ -6,4 +6,4 @@
 ## RequiredDeps: ElvUI
 ## DefaultState: enabled
 
-Code.lua
+FafnyirUI.lua
