@@ -309,6 +309,10 @@ E.db["movers"]["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,216"
 E.db["movers"]["VehicleLeaveButton"] = "BOTTOM,UIParent,BOTTOM,287,93"
 E.db["movers"]["VehicleSeatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,457,34"
 E.db["movers"]["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,36"
+
+E.private["skins"]["checkBoxSkin"] = false
+E.private["skins"]["parchmentRemoverEnable"] = true
+
 E.db["tooltip"]["font"] = "-FafnyirUI"
 E.db["tooltip"]["fontOutline"] = "OUTLINE"
 E.db["tooltip"]["headerFont"] = "-FafnyirUI_Bold"
@@ -871,6 +875,26 @@ local function InsertOptions()
 				order = 5,
 				type = "description",
 				name = "The installation guide should pop up automatically after you have completed the ElvUI installation. If you wish to re-run the installation process for this layout then please click the button below.",
+			},
+			creditsheader = {
+				order = 93,
+				type = "header",
+				name = "|cFFDA70D6Credits",
+			},
+			creditsheaderdesc1 = {
+				order = 94,
+				type = "description",
+				name = "Special thanks goes to these amazing people for their help, code or inspiration.",
+			},
+			creditsheaderdesc2 = {
+				order = 95,
+				type = "description",
+				name = "|cFFDA70D6Eltreum, Naowh, Gennoken",
+			},
+			creditsheaderspac1 = {
+				order = 96,
+				type = "description",
+				name = "",
 			},
 			spacer2 = {
 				order = 6,
