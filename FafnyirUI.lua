@@ -275,7 +275,7 @@ E.db["movers"]["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,0,46"
 E.db["movers"]["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,69,1014"
 E.db["movers"]["ElvUF_BodyGuardMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,478,251"
 E.db["movers"]["ElvUF_FocusCastbarMover"] = "TOP,ElvUIParent,TOP,0,-323"
-E.db["movers"]["ElvUF_FocusMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,463,322"
+E.db["movers"]["ElvUF_FocusMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,560,322"
 E.db["movers"]["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,403,393"
 E.db["movers"]["ElvUF_PetCastbarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,141,-4"
 E.db["movers"]["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-224,292"
@@ -287,7 +287,7 @@ E.db["movers"]["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,0,764"
 E.db["movers"]["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076"
 E.db["movers"]["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,267,283"
 E.db["movers"]["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,284,322"
-E.db["movers"]["ElvUF_TargetTargetMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-464,322"
+E.db["movers"]["ElvUF_TargetTargetMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-560,322"
 E.db["movers"]["ExperienceBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,6"
 E.db["movers"]["LeftChatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,34"
 E.db["movers"]["LootFrameMover"] = "TOP,ElvUIParent,TOP,-192,-448"
@@ -309,6 +309,9 @@ E.db["movers"]["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,216"
 E.db["movers"]["VehicleLeaveButton"] = "BOTTOM,UIParent,BOTTOM,287,93"
 E.db["movers"]["VehicleSeatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,457,34"
 E.db["movers"]["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,36"
+
+E.private["skins"]["checkBoxSkin"] = false
+E.private["skins"]["parchmentRemoverEnable"] = true
 
 E.db["tooltip"]["font"] = "-FafnyirUI"
 E.db["tooltip"]["fontOutline"] = "OUTLINE"
@@ -449,7 +452,7 @@ E.db["unitframe"]["units"]["boss"]["health"]["text_format"] = "[health:current:s
 E.db["unitframe"]["units"]["boss"]["health"]["yOffset"] = -8
 E.db["unitframe"]["units"]["boss"]["height"] = 28
 E.db["unitframe"]["units"]["boss"]["name"]["position"] = "TOPRIGHT"
-E.db["unitframe"]["units"]["boss"]["name"]["text_format"] = "[name:veryshort:translit]"
+E.db["unitframe"]["units"]["boss"]["name"]["text_format"] = ""
 E.db["unitframe"]["units"]["boss"]["name"]["yOffset"] = 8
 E.db["unitframe"]["units"]["boss"]["power"]["enable"] = false
 E.db["unitframe"]["units"]["boss"]["power"]["height"] = 4
@@ -466,7 +469,7 @@ E.db["unitframe"]["units"]["focus"]["debuffs"]["enable"] = false
 E.db["unitframe"]["units"]["focus"]["disableTargetGlow"] = true
 E.db["unitframe"]["units"]["focus"]["height"] = 16
 E.db["unitframe"]["units"]["focus"]["name"]["position"] = "TOPRIGHT"
-E.db["unitframe"]["units"]["focus"]["name"]["text_format"] = "[name:veryshort:translit]"
+E.db["unitframe"]["units"]["focus"]["name"]["text_format"] = "[name:short]"
 E.db["unitframe"]["units"]["focus"]["name"]["yOffset"] = 15
 E.db["unitframe"]["units"]["focus"]["power"]["enable"] = false
 E.db["unitframe"]["units"]["focus"]["power"]["height"] = 5
@@ -872,6 +875,26 @@ local function InsertOptions()
 				order = 5,
 				type = "description",
 				name = "The installation guide should pop up automatically after you have completed the ElvUI installation. If you wish to re-run the installation process for this layout then please click the button below.",
+			},
+			creditsheader = {
+				order = 93,
+				type = "header",
+				name = "|cFFDA70D6Credits",
+			},
+			creditsheaderdesc1 = {
+				order = 94,
+				type = "description",
+				name = "Special thanks goes to these amazing people for their help, code or inspiration.",
+			},
+			creditsheaderdesc2 = {
+				order = 95,
+				type = "description",
+				name = "|cFFDA70D6Eltreum, Naowh, Gennoken",
+			},
+			creditsheaderspac1 = {
+				order = 96,
+				type = "description",
+				name = "",
 			},
 			spacer2 = {
 				order = 6,
