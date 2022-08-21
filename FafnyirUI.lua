@@ -176,6 +176,9 @@ E.db["chat"]["emotionIcons"] = false
 E.db["chat"]["font"] = "-FafnyirUI"
 E.db["chat"]["fontSize"] = 12
 E.db["chat"]["hideCopyButton"] = true
+
+E.db["chat"]["hideVoiceButtons"] = true
+
 E.db["chat"]["lfgIcons"] = false
 E.db["chat"]["panelBackdrop"] = "HIDEBOTH"
 E.db["chat"]["panelHeight"] = 210
@@ -825,6 +828,16 @@ local InstallerData = {
 
 
 		end,
+		--[[ [3] = function()
+			PluginInstallFrame.SubTitle:SetText("Addons Profiles")
+			PluginInstallFrame.Desc1:SetText("This will set some addons profiles if loaded to match |cFFDA70D6FafnyirUI.")
+			PluginInstallFrame.Desc2:SetText("Importance: |cFFDA70D6Low|r")
+			PluginInstallFrame.Desc3:SetText("|cFFDA70D6Notice: |cffffffffIt is recommanded that you backup your WTF folder or some specific Addons settings as they will be overwritten.")
+			PluginInstallFrame.Option1:Show()
+			PluginInstallFrame.Option1:SetScript("OnClick", function() SetupAddons() end)
+			PluginInstallFrame.Option1:SetText("Setup Addons")
+		end,
+		--]]
 		[3] = function()
 			PluginInstallFrame.SubTitle:SetText("Installation Complete")
 			PluginInstallFrame.Desc1:SetText("You have completed the installation process.")
@@ -837,6 +850,7 @@ local InstallerData = {
 	StepTitles = {
 		[1] = "Welcome",
 		[2] = "Layout",
+		-- [3] = "Addons",
 		[3] = "Installation Complete",
 	},
 	StepTitlesColor = {1, 1, 1},
