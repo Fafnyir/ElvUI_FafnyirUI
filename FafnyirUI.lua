@@ -33,10 +33,19 @@ if not E.db.movers then E.db.movers = {} end
 
 	--LAYOUT GOES HERE
 -- Private Settings
-E.private["nameplates"]["enable"] = false
 E.private["bags"]["enable"] = false
+E.private["general"]["chatBubbleFont"] = "-FafnyirUI"
+E.private["general"]["chatBubbles"] = "nobackdrop"
+E.private["general"]["dmgfont"] = "-Fafnyir_Black"
+E.private["general"]["glossTex"] = "- FafnyirUI Clean"
+E.private["general"]["namefont"] = "-FafnyirUI_Bold"
+E.private["general"]["nameplateFont"] = "-FafnyirUI"
+E.private["general"]["nameplateLargeFont"] = "-FafnyirUI_Bold"
+E.private["general"]["normTex"] = "- FafnyirUI Clean"
+E.private["nameplates"]["enable"] = false
 E.private["skins"]["checkBoxSkin"] = false
 E.private["skins"]["parchmentRemoverEnable"] = true
+
 	
 -- Layout Settings
 E.db["actionbar"]["bar1"]["countFont"] = "-FafnyirUI_Bold"
@@ -124,7 +133,7 @@ E.db["actionbar"]["extraActionButton"]["hotkeyFontSize"] = 12
 E.db["actionbar"]["font"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["fontOutline"] = "OUTLINE"
 E.db["actionbar"]["fontSize"] = 12
-E.db["actionbar"]["microbar"]["enabled"] = true
+E.db["actionbar"]["microbar"]["enabled"] = false
 E.db["actionbar"]["microbar"]["mouseover"] = true
 E.db["actionbar"]["stanceBar"]["buttonSize"] = 30
 E.db["actionbar"]["stanceBar"]["hotkeyFont"] = "-FafnyirUI_Bold"
@@ -277,15 +286,15 @@ E.db["movers"]["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-193,-148"
 E.db["movers"]["DurabilityFrameMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,457,34"
 E.db["movers"]["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,14"
 E.db["movers"]["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,-262,3"
-E.db["movers"]["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,285,16"
-E.db["movers"]["ElvAB_4"] = "BOTTOM,ElvUIParent,BOTTOM,-285,16"
+E.db["movers"]["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,287,16"
+E.db["movers"]["ElvAB_4"] = "BOTTOM,ElvUIParent,BOTTOM,-287,16"
 E.db["movers"]["ElvAB_5"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,4"
 E.db["movers"]["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,0,46"
 E.db["movers"]["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,69,1014"
 E.db["movers"]["ElvUF_BodyGuardMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,478,251"
 E.db["movers"]["ElvUF_FocusCastbarMover"] = "TOP,ElvUIParent,TOP,0,-323"
 E.db["movers"]["ElvUF_FocusMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,560,322"
-E.db["movers"]["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,403,393"
+E.db["movers"]["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,505,435"
 E.db["movers"]["ElvUF_PetCastbarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,141,-4"
 E.db["movers"]["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-224,292"
 E.db["movers"]["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,226"
@@ -304,18 +313,18 @@ E.db["movers"]["LossControlMover"] = "TOP,ElvUIParent,TOP,0,-491"
 E.db["movers"]["MawBuffsBelowMinimapMover"] = "TOP,UIParent,TOP,0,-4"
 E.db["movers"]["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-379,4"
 E.db["movers"]["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-5,-5"
-E.db["movers"]["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-54,-200"
+E.db["movers"]["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-193,-198"
 E.db["movers"]["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,178"
 E.db["movers"]["PlayerPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,370"
 E.db["movers"]["ReputationBarMover"] = "TOP,ElvUIParent,TOP,0,-35"
 E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,53"
-E.db["movers"]["ShiftAB"] = "BOTTOM,UIParent,BOTTOM,-285,93"
+E.db["movers"]["ShiftAB"] = "BOTTOM,UIParent,BOTTOM,-355,75"
 E.db["movers"]["TalkingHeadFrameMover"] = "TOP,UIParent,TOP,0,-4"
 E.db["movers"]["TargetPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,305,316"
-E.db["movers"]["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-218,2"
+E.db["movers"]["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-220,2"
 E.db["movers"]["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-55"
 E.db["movers"]["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,216"
-E.db["movers"]["VehicleLeaveButton"] = "BOTTOM,UIParent,BOTTOM,287,93"
+E.db["movers"]["VehicleLeaveButton"] = "BOTTOM,UIParent,BOTTOM,355,75"
 E.db["movers"]["VehicleSeatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,457,34"
 E.db["movers"]["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,36"
 E.db["tooltip"]["font"] = "-FafnyirUI"
@@ -473,7 +482,7 @@ E.db["unitframe"]["units"]["focus"]["debuffs"]["anchorPoint"] = "BOTTOMRIGHT"
 E.db["unitframe"]["units"]["focus"]["debuffs"]["enable"] = false
 E.db["unitframe"]["units"]["focus"]["disableTargetGlow"] = true
 E.db["unitframe"]["units"]["focus"]["height"] = 16
-E.db["unitframe"]["units"]["focus"]["name"]["position"] = "TOPRIGHT"
+E.db["unitframe"]["units"]["focus"]["name"]["position"] = "TOPLEFT"
 E.db["unitframe"]["units"]["focus"]["name"]["text_format"] = "[name:short]"
 E.db["unitframe"]["units"]["focus"]["name"]["yOffset"] = 15
 E.db["unitframe"]["units"]["focus"]["power"]["enable"] = false
@@ -838,6 +847,8 @@ local InstallerData = {
 			PluginInstallFrame.Option1:SetText("Setup Addons")
 		end,
 		--]]
+		
+
 		[3] = function()
 			PluginInstallFrame.SubTitle:SetText("Installation Complete")
 			PluginInstallFrame.Desc1:SetText("You have completed the installation process.")
