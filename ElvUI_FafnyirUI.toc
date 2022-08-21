@@ -1,0 +1,9 @@
+## Interface: 90207
+## Author: Fafnyir
+## Version: 1.00
+## Title: |cff1784d1FafnyirUI|r |cff4beb2cInstaller|r
+## Notes: Contains 1440 Layout from Fafnyir
+## RequiredDeps: ElvUI
+## DefaultState: enabled
+
+Code.lua
