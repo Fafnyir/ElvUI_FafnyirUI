@@ -890,6 +890,7 @@ local InstallerData = {
 [2] = function()
 			PluginInstallFrame.SubTitle:SetText("Layouts")
 			PluginInstallFrame.Desc1:SetText("Please click a button below to apply the layout.")
+			PluginInstallFrame.Desc1:SetText("WideScreen for |cFFDA70D62560x1440|r or UltraWide for |cFFDA70D63440x1440")
 			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function() SetupLayout("tank") end)
