@@ -34,6 +34,12 @@ if IsAddOnLoaded('WarpDeplete') then
 	E:Print(L["'WarpDeplete' profile has been set."])
 end
 
+-- ArkInventory
+if IsAddOnLoaded('ArkInventory') then
+	GNUI:LoadWDProfile()
+	E:Print(L["'ArkInventory' profile has been set."])
+end
+
 -- Update ElvUI
 	E:StaggeredUpdateAll(nil, true)
 

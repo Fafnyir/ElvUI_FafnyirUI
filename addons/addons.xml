@@ -5,4 +5,5 @@
 	<Script file="DBM.lua"/>
 	<Script file="WarpDeplete.lua"/>
 	<Script file="Plater.lua"/>
+	<Script file="ArkInventory.lua"/>
 </Ui>
