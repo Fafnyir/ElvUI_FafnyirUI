@@ -804,68 +804,16 @@ E.db["unitframe"]["units"]["targettarget"]["width"] = 100
 		-- certain conditions then this is how you could do it
 		if layout == "tank" then
 -- Tank Layout --
-
 		elseif layout == "dps" then
 -- DPS Layout --
 		elseif layout == "healer" then
--- Healer Layout --
-E.db["movers"]["AlertFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,49,-35"
-E.db["movers"]["AltPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,120"
-E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-457,-373"
-E.db["movers"]["ArtifactBarMover"] = "TOP,ElvUIParent,TOP,0,-4"
-E.db["movers"]["AzeriteBarMover"] = "TOP,ElvUIParent,TOP,0,-7"
-E.db["movers"]["BNETMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-5,-205"
-E.db["movers"]["BelowMinimapContainerMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-366,-346"
-E.db["movers"]["BossButton"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,36"
-E.db["movers"]["BossHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-452,-429"
-E.db["movers"]["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-193,-5"
-E.db["movers"]["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,381"
-E.db["movers"]["ComboBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,325"
-E.db["movers"]["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-193,-148"
-E.db["movers"]["DurabilityFrameMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,457,34"
-E.db["movers"]["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,14"
-E.db["movers"]["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,-262,3"
-E.db["movers"]["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,287,16"
-E.db["movers"]["ElvAB_4"] = "BOTTOM,ElvUIParent,BOTTOM,-287,16"
-E.db["movers"]["ElvAB_5"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,4"
-E.db["movers"]["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,0,46"
-E.db["movers"]["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,69,1014"
-E.db["movers"]["ElvUF_BodyGuardMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,478,251"
+-- UltraWide Layout --
+
 E.db["movers"]["ElvUF_FocusCastbarMover"] = "TOP,ElvUIParent,TOP,0,-323"
 E.db["movers"]["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,-460,322"
 E.db["movers"]["ElvUF_PartyMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,870,466"
-E.db["movers"]["ElvUF_PetCastbarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,141,-4"
-E.db["movers"]["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-224,292"
-E.db["movers"]["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,226"
-E.db["movers"]["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-284,322"
-E.db["movers"]["ElvUF_Raid40Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,12,354"
-E.db["movers"]["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,101,354"
-E.db["movers"]["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,0,764"
-E.db["movers"]["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076"
-E.db["movers"]["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,267,283"
-E.db["movers"]["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,284,322"
 E.db["movers"]["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,460,322"
-E.db["movers"]["ExperienceBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,6"
-E.db["movers"]["LeftChatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,34"
-E.db["movers"]["LootFrameMover"] = "TOP,ElvUIParent,TOP,-192,-448"
-E.db["movers"]["LossControlMover"] = "TOP,ElvUIParent,TOP,0,-491"
-E.db["movers"]["MawBuffsBelowMinimapMover"] = "TOP,UIParent,TOP,0,-4"
-E.db["movers"]["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-379,4"
-E.db["movers"]["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-5,-5"
-E.db["movers"]["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-193,-198"
-E.db["movers"]["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,178"
-E.db["movers"]["PlayerPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,370"
-E.db["movers"]["ReputationBarMover"] = "TOP,ElvUIParent,TOP,0,-35"
-E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,53"
-E.db["movers"]["ShiftAB"] = "BOTTOM,UIParent,BOTTOM,-355,75"
-E.db["movers"]["TalkingHeadFrameMover"] = "TOP,UIParent,TOP,0,-4"
-E.db["movers"]["TargetPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,305,316"
-E.db["movers"]["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-220,2"
-E.db["movers"]["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-55"
-E.db["movers"]["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,216"
-E.db["movers"]["VehicleLeaveButton"] = "BOTTOM,UIParent,BOTTOM,355,75"
-E.db["movers"]["VehicleSeatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,457,34"
-E.db["movers"]["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,36"
+
 		end
 
 
