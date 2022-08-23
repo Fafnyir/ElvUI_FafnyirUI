@@ -605,17 +605,6 @@ E.db["unitframe"]["units"]["player"]["classbar"]["enable"] = false
 E.db["unitframe"]["units"]["player"]["classbar"]["height"] = 15
 
 E.db["unitframe"]["units"]["player"]["customTexts"] = E.db["unitframe"]["units"]["player"]["customTexts"] or {}
-E.db["unitframe"]["units"]["player"]["customTexts"]["Absorbs"] = {
-            ["attachTextTo"] = "Health",
-            ["enable"] = true,
-            ["font"] = "-FafnyirUI",
-            ["fontOutline"] = "OUTLINE",
-            ["justifyH"] = "RIGHT",
-            ["size"] = 14,
-            ["text_format"] = "[absorbs]",
-            ["xOffset"] = -1,
-            ["yOffset"] = -1
-        }
 
 E.db["unitframe"]["units"]["player"]["debuffs"]["enable"] = false
 E.db["unitframe"]["units"]["player"]["debuffs"]["perrow"] = 6
