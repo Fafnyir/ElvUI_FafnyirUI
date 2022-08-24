@@ -1,19 +1,25 @@
 
 OmniCDDB = {
 	["profileKeys"] = {
+		["Gulgan - Whisperwind"] = "Default",
+		["Tuluugar - Whisperwind"] = "Default",
+		["Fafnyir - Illidan"] = "Default",
 		["Fafnyir - Whisperwind"] = "FafnyirUI",
+		["Tanytha - Whisperwind"] = "Default",
+	},
+	["cooldowns"] = {
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
-	["cooldowns"] = {
-	},
-	["version"] = 2.51,
 	["global"] = {
 		["disableElvMsg"] = true,
 	},
+	["version"] = 2.51,
 	["profiles"] = {
+		["Default"] = {
+		},
 		["FafnyirUI"] = {
 			["Party"] = {
 				["party"] = {
@@ -34,12 +40,14 @@ OmniCDDB = {
 				["fonts"] = {
 					["statusBar"] = {
 						["font"] = "-FafnyirUI",
+						["flag"] = "OUTLINE",
 					},
 					["optionSmall"] = {
 						["font"] = "-FafnyirUI_Bold",
 					},
 					["anchor"] = {
 						["font"] = "-FafnyirUI",
+						["flag"] = "OUTLINE",
 					},
 					["icon"] = {
 						["font"] = "-FafnyirUI",
