@@ -801,10 +801,10 @@ E.db["unitframe"]["units"]["targettarget"]["width"] = 100
 		elseif layout == "healer" then
 -- UltraWide Layout --
 
-E.db["movers"]["ElvUF_FocusCastbarMover"] = "TOP,ElvUIParent,TOP,0,-323"
-E.db["movers"]["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,-460,382"
-E.db["movers"]["ElvUF_PartyMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,870,500"
-E.db["movers"]["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,460,382"
+-- E.db["movers"]["ElvUF_FocusCastbarMover"] = "TOP,ElvUIParent,TOP,0,-323"
+-- E.db["movers"]["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,-460,382"
+-- E.db["movers"]["ElvUF_PartyMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,870,500"
+-- E.db["movers"]["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,460,382"
 
 		end
 
@@ -854,12 +854,11 @@ local InstallerData = {
 			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function() SetupLayout("tank") end)
-			PluginInstallFrame.Option1:SetText("WideScreen")
-			PluginInstallFrame.Option2:Show()
-			PluginInstallFrame.Option2:SetScript("OnClick", function() SetupLayout("healer") end)
-			PluginInstallFrame.Option2:SetText("UltraWide")
-
-
+			PluginInstallFrame.Option1:SetText("Install")
+			-- PluginInstallFrame.Option2:Show()
+			-- PluginInstallFrame.Option2:SetScript("OnClick", function() SetupLayout("healer") end)
+			-- PluginInstallFrame.Option2:SetText("UltraWide")
+		
 		end,
 		--[[ [3] = function()
 			PluginInstallFrame.SubTitle:SetText("Addons Profiles")
