@@ -132,7 +132,7 @@ E.db["actionbar"]["extraActionButton"]["hotkeyFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["extraActionButton"]["hotkeyFontOutline"] = "NONE"
 E.db["actionbar"]["extraActionButton"]["hotkeyFontSize"] = 12
 E.db["actionbar"]["font"] = "-FafnyirUI_Bold"
-E.db["actionbar"]["fontOutline"] = "NONE"
+E.db["actionbar"]["fontOutline"] = "OUTLINE"
 E.db["actionbar"]["fontSize"] = 12
 E.db["actionbar"]["microbar"]["enabled"] = false
 E.db["actionbar"]["microbar"]["mouseover"] = true
@@ -287,8 +287,8 @@ E.db["movers"]["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-193,-148"
 E.db["movers"]["DurabilityFrameMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,457,34"
 E.db["movers"]["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,14"
 E.db["movers"]["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,-262,3"
-E.db["movers"]["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,287,16"
-E.db["movers"]["ElvAB_4"] = "BOTTOM,ElvUIParent,BOTTOM,-287,16"
+E.db["movers"]["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,302,16"
+E.db["movers"]["ElvAB_4"] = "BOTTOM,ElvUIParent,BOTTOM,-302,16"
 E.db["movers"]["ElvAB_5"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,4"
 E.db["movers"]["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,0,46"
 E.db["movers"]["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,69,1014"
@@ -319,13 +319,13 @@ E.db["movers"]["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,178"
 E.db["movers"]["PlayerPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,370"
 E.db["movers"]["ReputationBarMover"] = "TOP,ElvUIParent,TOP,0,-35"
 E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,53"
-E.db["movers"]["ShiftAB"] = "BOTTOM,UIParent,BOTTOM,-358,75"
+E.db["movers"]["ShiftAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,672,79"
 E.db["movers"]["TalkingHeadFrameMover"] = "TOP,UIParent,TOP,0,-4"
 E.db["movers"]["TargetPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,305,370"
 E.db["movers"]["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-314,2"
 E.db["movers"]["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-55"
-E.db["movers"]["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,250"
-E.db["movers"]["VehicleLeaveButton"] = "BOTTOM,UIParent,BOTTOM,358,75"
+E.db["movers"]["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,216"
+E.db["movers"]["VehicleLeaveButton"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-674,78"
 E.db["movers"]["VehicleSeatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,457,34"
 E.db["movers"]["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,36"
 E.db["tooltip"]["font"] = "-FafnyirUI"
@@ -724,7 +724,7 @@ E.db["unitframe"]["units"]["target"]["castbar"]["customTextFont"]["enable"] = tr
 E.db["unitframe"]["units"]["target"]["castbar"]["customTextFont"]["font"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["target"]["castbar"]["customTimeFont"]["enable"] = true
 E.db["unitframe"]["units"]["target"]["castbar"]["customTimeFont"]["font"] = "-FafnyirUI"
-E.db["unitframe"]["units"]["target"]["castbar"]["height"] = 24
+E.db["unitframe"]["units"]["target"]["castbar"]["height"] = 20
 E.db["unitframe"]["units"]["target"]["castbar"]["iconAttached"] = false
 E.db["unitframe"]["units"]["target"]["castbar"]["iconAttachedTo"] = "Castbar"
 E.db["unitframe"]["units"]["target"]["castbar"]["iconSize"] = 20
@@ -850,7 +850,7 @@ local InstallerData = {
 [2] = function()
 			PluginInstallFrame.SubTitle:SetText("Layouts")
 			PluginInstallFrame.Desc1:SetText("Please click a button below to apply the layout.")
-			PluginInstallFrame.Desc1:SetText("WideScreen for |cFFDA70D62560x1440|r or UltraWide for |cFFDA70D63440x1440")
+			PluginInstallFrame.Desc1:SetText("FafnyirUI is built for |cFFDA70D61920x1080|r Resolution")
 			PluginInstallFrame.Desc2:SetText("Importance: |cff07D400High|r")
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function() SetupLayout("tank") end)
@@ -858,7 +858,8 @@ local InstallerData = {
 			-- PluginInstallFrame.Option2:Show()
 			-- PluginInstallFrame.Option2:SetScript("OnClick", function() SetupLayout("healer") end)
 			-- PluginInstallFrame.Option2:SetText("UltraWide")
-		
+
+
 		end,
 		--[[ [3] = function()
 			PluginInstallFrame.SubTitle:SetText("Addons Profiles")
