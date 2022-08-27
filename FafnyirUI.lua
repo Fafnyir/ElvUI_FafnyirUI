@@ -46,28 +46,6 @@ E.private["nameplates"]["enable"] = false
 E.private["skins"]["checkBoxSkin"] = false
 E.private["skins"]["parchmentRemoverEnable"] = true
 
--- Private Windtools Settings
-E.private["WT"]["maps"]["minimapButtons"]["enable"] = false
-E.private["WT"]["misc"]["lfgList"]["enable"] = false
-E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["border"] = "ONEPIXEL"
-E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["color"]["mode"] = "CLASS"
-E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["texture"] = "- FafnyirUI Clean"
-E.private["WT"]["quest"]["objectiveTracker"]["header"]["size"] = 16
-E.private["WT"]["quest"]["objectiveTracker"]["noDash"] = false
-E.private["WT"]["quest"]["objectiveTracker"]["titleColor"]["classColor"] = true
-E.private["WT"]["skins"]["enable"] = false
-E.private["WT"]["skins"]["ime"]["label"]["name"] = "-FafnyirUI"
-E.private["WT"]["skins"]["shadow"] = false
-
--- WindTools Settings
-E.db["WT"]["combat"]["raidMarkers"]["enable"] = false
-E.db["WT"]["item"]["extraItemsBar"]["enable"] = false
-E.db["WT"]["misc"]["gameBar"]["enable"] = false
-E.db["WT"]["quest"]["paragonReputation"]["enable"] = false
-E.db["WT"]["quest"]["switchButtons"]["enable"] = false
-E.db["WT"]["quest"]["turnIn"]["enable"] = false
-E.db["WT"]["social"]["chatBar"]["enable"] = false
-
 -- Actionbar Settings
 E.db["actionbar"]["bar1"]["countFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["bar1"]["hotkeyFont"] = "-FafnyirUI_Bold"
