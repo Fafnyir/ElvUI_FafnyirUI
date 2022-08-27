@@ -46,8 +46,29 @@ E.private["nameplates"]["enable"] = false
 E.private["skins"]["checkBoxSkin"] = false
 E.private["skins"]["parchmentRemoverEnable"] = true
 
-	
--- Layout Settings
+-- Private Windtools Settings
+E.private["WT"]["maps"]["minimapButtons"]["enable"] = false
+E.private["WT"]["misc"]["lfgList"]["enable"] = false
+E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["border"] = "ONEPIXEL"
+E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["color"]["mode"] = "CLASS"
+E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["texture"] = "- FafnyirUI Clean"
+E.private["WT"]["quest"]["objectiveTracker"]["header"]["size"] = 16
+E.private["WT"]["quest"]["objectiveTracker"]["noDash"] = false
+E.private["WT"]["quest"]["objectiveTracker"]["titleColor"]["classColor"] = true
+E.private["WT"]["skins"]["enable"] = false
+E.private["WT"]["skins"]["ime"]["label"]["name"] = "-FafnyirUI"
+E.private["WT"]["skins"]["shadow"] = false
+
+-- WindTools Settings
+E.db["WT"]["combat"]["raidMarkers"]["enable"] = false
+E.db["WT"]["item"]["extraItemsBar"]["enable"] = false
+E.db["WT"]["misc"]["gameBar"]["enable"] = false
+E.db["WT"]["quest"]["paragonReputation"]["enable"] = false
+E.db["WT"]["quest"]["switchButtons"]["enable"] = false
+E.db["WT"]["quest"]["turnIn"]["enable"] = false
+E.db["WT"]["social"]["chatBar"]["enable"] = false
+
+-- Actionbar Settings
 E.db["actionbar"]["bar1"]["countFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["bar1"]["hotkeyFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["bar1"]["macroFont"] = "-FafnyirUI_Bold"
@@ -145,6 +166,8 @@ E.db["actionbar"]["useDrawSwipeOnCharges"] = true
 E.db["actionbar"]["vehicleExitButton"]["hotkeyFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["vehicleExitButton"]["hotkeyFontOutline"] = "OUTLINE"
 E.db["actionbar"]["vehicleExitButton"]["hotkeyFontSize"] = 12
+
+-- Aura Settings
 E.db["auras"]["buffs"]["countFont"] = "-FafnyirUI"
 E.db["auras"]["buffs"]["countFontOutline"] = "OUTLINE"
 E.db["auras"]["buffs"]["countFontSize"] = 14
@@ -167,6 +190,8 @@ E.db["auras"]["debuffs"]["timeFont"] = "-FafnyirUI"
 E.db["auras"]["debuffs"]["timeFontOutline"] = "OUTLINE"
 E.db["auras"]["debuffs"]["timeFontSize"] = 14
 E.db["auras"]["debuffs"]["timeYOffset"] = 8
+
+-- bag Settings
 E.db["bags"]["bagSize"] = 33
 E.db["bags"]["cooldown"]["fonts"]["enable"] = true
 E.db["bags"]["cooldown"]["fonts"]["font"] = "-FafnyirUI"
@@ -180,15 +205,15 @@ E.db["bags"]["itemLevelFontOutline"] = "OUTLINE"
 E.db["bags"]["itemLevelFontSize"] = 12
 E.db["bags"]["moneyFormat"] = "BLIZZARD"
 E.db["bags"]["vendorGrays"]["enable"] = true
+
+-- Chat Settings
 E.db["chat"]["chatHistory"] = false
 E.db["chat"]["editBoxPosition"] = "ABOVE_CHAT"
 E.db["chat"]["emotionIcons"] = false
 E.db["chat"]["font"] = "-FafnyirUI"
 E.db["chat"]["fontSize"] = 12
 E.db["chat"]["hideCopyButton"] = true
-
 E.db["chat"]["hideVoiceButtons"] = true
-
 E.db["chat"]["lfgIcons"] = false
 E.db["chat"]["panelBackdrop"] = "HIDEBOTH"
 E.db["chat"]["panelHeight"] = 210
@@ -200,6 +225,8 @@ E.db["chat"]["tabFont"] = "-FafnyirUI"
 E.db["chat"]["tabFontOutline"] = "OUTLINE"
 E.db["chat"]["tabFontSize"] = 11
 E.db["convertPages"] = true
+
+-- Cooldown Settings
 E.db["cooldown"]["checkSeconds"] = true
 E.db["cooldown"]["fonts"]["enable"] = true
 E.db["cooldown"]["fonts"]["font"] = "-FafnyirUI_Bold"
