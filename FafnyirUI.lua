@@ -977,7 +977,7 @@ local function InsertOptions()
 			creditsheaderdesc1 = {
 				order = 94,
 				type = "description",
-				name = "Special thanks goes to these amazing people for their help, code or inspiration.",
+				name = "Special thanks goes to these amazing people for their help, code, or inspiration.",
 			},
 			creditsheaderdesc2 = {
 				order = 95,
