@@ -21,7 +21,7 @@ local E, L, V, P, G = unpack(ElvUI)
 local EP = LibStub("LibElvUIPlugin-1.0")
 
 --Create a new ElvUI module so ElvUI can handle initialization when ready
-local mod = E:NewModule(MyPluginName, "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0");
+local FNUI = E:NewModule(MyPluginName, "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0");
 
 --This function will hold your layout settings
 local function SetupLayout(layout)
@@ -979,7 +979,7 @@ end
 P[MyPluginName] = {}
 
 --This function will handle initialization of the addon
-function mod:Initialize()
+function FNUI:Initialize()
 	--Initiate installation process if ElvUI install is complete and our plugin install has not yet been run
 	if E.private.install_complete and E.db[MyPluginName].install_version == nil then
 		E:GetModule("PluginInstaller"):Queue(InstallerData)
@@ -990,4 +990,4 @@ function mod:Initialize()
 end
 
 --Register module with callback so it gets initialized when ready
-E:RegisterModule(mod:GetName())
+E:RegisterModule(FNUI:GetName())
