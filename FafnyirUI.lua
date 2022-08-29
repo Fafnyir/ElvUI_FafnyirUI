@@ -34,7 +34,7 @@ if not E.db.movers then E.db.movers = {} end
 	--LAYOUT GOES HERE
 -- Private Settings
 E.private["bags"]["enable"] = false
-E.private["general"]["chatBubbleFont"] = "-FafnyirUI"
+E.private["general"]["chatBubbleFont"] = "-FafnyirUI_Bold"
 E.private["general"]["chatBubbles"] = "nobackdrop"
 E.private["general"]["dmgfont"] = "-FafnyirUI_Black"
 E.private["general"]["glossTex"] = "- FafnyirUI Clean"
