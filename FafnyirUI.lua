@@ -845,7 +845,7 @@ end
 local InstallerData = {
 	Title = format("|cFFDA70D6%s %s|r", MyPluginName, "Installation"),
 	Name = MyPluginName,
-	tutorialImage = "Interface\\AddOns\\ElvUI_FafnyirUI\\logo.tga", --If you have a logo you want to use, otherwise it uses the one from ElvUI
+	tutorialImage = "Interface\\AddOns\\ElvUI_FafnyirUI\\media\\logo\\Logo.tga", --If you have a logo you want to use, otherwise it uses the one from ElvUI
 	Pages = {
 		[1] = function()
 			PluginInstallFrame.SubTitle:SetFormattedText("Welcome to the installation for %s.", MyPluginName)

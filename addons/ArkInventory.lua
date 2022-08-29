@@ -1,4 +1,7 @@
+local E, L, V, P, G = unpack(ElvUI);
+local GNUI = E:GetModule("FafnyirUI");
 
+function GNUI:LoadAIProfile()
 ARKINVDB = {
 	["global"] = {
 		["option"] = {
@@ -56463,3 +56466,4 @@ ARKINVDB = {
 		["Tarran - Whisperwind"] = "Default",
 	},
 }
+end

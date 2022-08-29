@@ -1,4 +1,7 @@
+local E, L, V, P, G = unpack(ElvUI);
+local GNUI = E:GetModule("FafnyirUI");
 
+function GNUI:LoadDBMProfile()
 DBM_AllSavedOptions = {
 	["Default"] = {
 		["DontShowFarWarnings"] = true,
@@ -283,3 +286,4 @@ DBM_AllSavedOptions = {
 }
 DBM_MinimapIcon = {
 }
+end

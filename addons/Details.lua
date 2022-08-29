@@ -1,4 +1,7 @@
+local E, L, V, P, G = unpack(ElvUI);
+local GNUI = E:GetModule("FafnyirUI");
 
+function GNUI:LoadDetailsProfile()
 _detalhes_global = {
 	["npcid_pool"] = {
 		[0] = "Vile Coating",
@@ -3024,3 +3027,4 @@ _detalhes_global = {
 	["dungeon_data"] = {
 	},
 }
+end

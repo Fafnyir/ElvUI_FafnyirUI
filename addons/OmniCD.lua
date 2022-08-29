@@ -1,4 +1,7 @@
+local E, L, V, P, G = unpack(ElvUI);
+local GNUI = E:GetModule("FafnyirUI");
 
+function GNUI:LoadOmniCDProfile()
 OmniCDDB = {
 	["profileKeys"] = {
 		["Gulgan - Whisperwind"] = "Default",
@@ -66,3 +69,4 @@ OmniCDDB = {
 		},
 	},
 }
+end

@@ -7,6 +7,11 @@ local classColor = E:ClassColor(E.myclass, true)
 
 function GNUI:SetupAddons()
 
+-- Addon Skins
+if IsAddOnLoaded('AddonSkins') then
+	GNUI:LoadAddonSkinsProfile()
+	E:Print(L["'AddonSkins' profile has been set."])
+end
 -- Deadly Boss Mods
 if IsAddOnLoaded('DBM-Core') then
 	GNUI:LoadDBMProfile()

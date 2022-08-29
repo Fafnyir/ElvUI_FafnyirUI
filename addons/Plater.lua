@@ -1,4 +1,7 @@
+local E, L, V, P, G = unpack(ElvUI);
+local GNUI = E:GetModule("FafnyirUI");
 
+function GNUI:LoadPlaterProfile()
 PlaterDB = {
 	["captured_spells"] = {
 		[263275] = {
@@ -14136,3 +14139,4 @@ PlaterDB = {
 		},
 	},
 }
+end
