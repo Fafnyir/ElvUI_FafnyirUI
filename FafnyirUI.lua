@@ -34,13 +34,13 @@ if not E.db.movers then E.db.movers = {} end
 	--LAYOUT GOES HERE
 -- Private Settings
 E.private["bags"]["enable"] = false
-E.private["general"]["chatBubbleFont"] = "-FafnyirUI_Bold"
+E.private["general"]["chatBubbleFont"] = "-FafnyirUI"
 E.private["general"]["chatBubbles"] = "nobackdrop"
 E.private["general"]["dmgfont"] = "-FafnyirUI_Black"
 E.private["general"]["glossTex"] = "- FafnyirUI Clean"
-E.private["general"]["namefont"] = "-FafnyirUI_Bold"
-E.private["general"]["nameplateFont"] = "-FafnyirUI_Bold"
-E.private["general"]["nameplateLargeFont"] = "-FafnyirUI_Bold"
+E.private["general"]["namefont"] = "-FafnyirUI"
+E.private["general"]["nameplateFont"] = "-FafnyirUI"
+E.private["general"]["nameplateLargeFont"] = "-FafnyirUI"
 E.private["general"]["normTex"] = "- FafnyirUI Clean"
 E.private["nameplates"]["enable"] = false
 E.private["skins"]["checkBoxSkin"] = false
@@ -176,8 +176,6 @@ E.db["actionbar"]["useDrawSwipeOnCharges"] = true
 E.db["actionbar"]["vehicleExitButton"]["hotkeyFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["vehicleExitButton"]["hotkeyFontOutline"] = "NONE"
 E.db["actionbar"]["vehicleExitButton"]["hotkeyFontSize"] = 14
-
---Aura Settings
 E.db["auras"]["buffs"]["countFont"] = "-FafnyirUI_Bold"
 E.db["auras"]["buffs"]["countFontOutline"] = "OUTLINE"
 E.db["auras"]["buffs"]["countFontSize"] = 14
@@ -200,8 +198,6 @@ E.db["auras"]["debuffs"]["timeFont"] = "-FafnyirUI"
 E.db["auras"]["debuffs"]["timeFontOutline"] = "OUTLINE"
 E.db["auras"]["debuffs"]["timeFontSize"] = 14
 E.db["auras"]["debuffs"]["timeYOffset"] = 8
-
---Bag Settings
 E.db["bags"]["bagSize"] = 33
 E.db["bags"]["cooldown"]["fonts"]["enable"] = true
 E.db["bags"]["cooldown"]["fonts"]["font"] = "-FafnyirUI"
@@ -215,8 +211,6 @@ E.db["bags"]["itemLevelFontOutline"] = "OUTLINE"
 E.db["bags"]["itemLevelFontSize"] = 12
 E.db["bags"]["moneyFormat"] = "BLIZZARD"
 E.db["bags"]["vendorGrays"]["enable"] = true
-
---Chat Settings
 E.db["chat"]["chatHistory"] = false
 E.db["chat"]["editBoxPosition"] = "ABOVE_CHAT"
 E.db["chat"]["emotionIcons"] = false
@@ -230,19 +224,15 @@ E.db["chat"]["panelHeightRight"] = 266
 E.db["chat"]["panelWidth"] = 450
 E.db["chat"]["panelWidthRight"] = 230
 E.db["chat"]["separateSizes"] = true
-E.db["chat"]["tabFont"] = "-FafnyirUI_Bold"
+E.db["chat"]["tabFont"] = "-FafnyirUI"
 E.db["chat"]["tabFontOutline"] = "OUTLINE"
 E.db["chat"]["tabFontSize"] = 11
 E.db["convertPages"] = true
-
---Cooldown Settings
 E.db["cooldown"]["checkSeconds"] = true
 E.db["cooldown"]["fonts"]["enable"] = true
 E.db["cooldown"]["fonts"]["font"] = "-FafnyirUI_Bold"
 E.db["cooldown"]["secondsColor"]["b"] = 1
 E.db["cooldown"]["threshold"] = -1
-
---Databar Settings
 E.db["databars"]["azerite"]["enable"] = false
 E.db["databars"]["azerite"]["font"] = "-FafnyirUI"
 E.db["databars"]["azerite"]["fontOutline"] = "OUTLINE"
@@ -268,8 +258,6 @@ E.db["databars"]["reputation"]["height"] = 5
 E.db["databars"]["reputation"]["width"] = 340
 E.db["databars"]["statusbar"] = "Melli"
 E.db["databars"]["threat"]["enable"] = false
-
---Datatext Settings
 E.db["datatexts"]["font"] = "-FafnyirUI_Bold"
 E.db["datatexts"]["fontOutline"] = "OUTLINE"
 E.db["datatexts"]["fontSize"] = 14
@@ -285,9 +273,7 @@ E.db["datatexts"]["panels"]["MinimapPanel"]["numPoints"] = 1
 E.db["datatexts"]["panels"]["MinimapPanel"]["panelTransparency"] = true
 E.db["datatexts"]["panels"]["RightChatDataPanel"]["enable"] = false
 E.db["datatexts"]["panels"]["RightMiniPanel"] = "ElvUI Config"
-
---General Settings
-E.db["general"]["altPowerBar"]["font"] = "-FafnyirUI_Bold"
+E.db["general"]["altPowerBar"]["font"] = "-FafnyirUI"
 E.db["general"]["altPowerBar"]["fontSize"] = 14
 E.db["general"]["altPowerBar"]["statusBar"] = "- FafnyirUI Clean"
 E.db["general"]["backdropcolor"]["b"] = 0.18039215686275
@@ -298,21 +284,19 @@ E.db["general"]["backdropfadecolor"]["b"] = 0.13333333333333
 E.db["general"]["backdropfadecolor"]["g"] = 0.13333333333333
 E.db["general"]["backdropfadecolor"]["r"] = 0.13333333333333
 E.db["general"]["bottomPanel"] = false
-E.db["general"]["font"] = "-FafnyirUI_Bold"
-E.db["general"]["itemLevel"]["itemLevelFont"] = "-FafnyirUI_Bold"
+E.db["general"]["font"] = "-FafnyirUI"
+E.db["general"]["itemLevel"]["itemLevelFont"] = "-FafnyirUI"
 E.db["general"]["loginmessage"] = false
-E.db["general"]["lootRoll"]["nameFont"] = "-FafnyirUI_Bold"
-E.db["general"]["minimap"]["icons"]["queueStatus"]["font"] = "-FafnyirUI_Bold"
+E.db["general"]["lootRoll"]["nameFont"] = "-FafnyirUI"
+E.db["general"]["minimap"]["icons"]["queueStatus"]["font"] = "-FafnyirUI"
 E.db["general"]["minimap"]["icons"]["queueStatus"]["fontSize"] = 12
-E.db["general"]["minimap"]["locationFont"] = "-FafnyirUI_Bold"
+E.db["general"]["minimap"]["locationFont"] = "-FafnyirUI"
 E.db["general"]["objectiveFrameHeight"] = 450
 E.db["general"]["totems"]["growthDirection"] = "HORIZONTAL"
 E.db["general"]["totems"]["spacing"] = 1
 E.db["general"]["valuecolor"]["b"] = 0.99
 E.db["general"]["valuecolor"]["g"] = 0.99
 E.db["general"]["valuecolor"]["r"] = 0.99
-
---Mover Settings
 E.db["movers"]["AlertFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,49,-35"
 E.db["movers"]["AltPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,120"
 E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-457,-373"
@@ -370,8 +354,6 @@ E.db["movers"]["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,216"
 E.db["movers"]["VehicleLeaveButton"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-674,78"
 E.db["movers"]["VehicleSeatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,457,34"
 E.db["movers"]["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,36"
-
---Tooltip Settings
 E.db["tooltip"]["font"] = "-FafnyirUI_Bold"
 E.db["tooltip"]["fontOutline"] = "OUTLINE"
 E.db["tooltip"]["headerFont"] = "-FafnyirUI_Black"
@@ -383,8 +365,6 @@ E.db["tooltip"]["role"] = false
 E.db["tooltip"]["targetInfo"] = false
 E.db["tooltip"]["textFontSize"] = 14
 E.db["tooltip"]["visibility"]["combatOverride"] = "HIDE"
-
---UnitFrame Settings
 E.db["unitframe"]["colors"]["auraBarBuff"]["b"] = 0.94
 E.db["unitframe"]["colors"]["auraBarBuff"]["g"] = 0.8
 E.db["unitframe"]["colors"]["auraBarBuff"]["r"] = 0.41
@@ -438,7 +418,7 @@ E.db["unitframe"]["colors"]["tapped"]["r"] = 0.54901960784314
 E.db["unitframe"]["cooldown"]["fonts"]["enable"] = true
 E.db["unitframe"]["cooldown"]["fonts"]["font"] = "-FafnyirUI_Bold"
 E.db["unitframe"]["cooldown"]["threshold"] = -1
-E.db["unitframe"]["font"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["font"] = "-FafnyirUI"
 E.db["unitframe"]["fontOutline"] = "NONE"
 E.db["unitframe"]["fontSize"] = 18
 E.db["unitframe"]["smartRaidFilter"] = false
@@ -477,7 +457,7 @@ E.db["unitframe"]["units"]["arena"]["spacing"] = 17
 E.db["unitframe"]["units"]["arena"]["width"] = 180
 E.db["unitframe"]["units"]["assist"]["enable"] = false
 E.db["unitframe"]["units"]["boss"]["buffs"]["anchorPoint"] = "TOPLEFT"
-E.db["unitframe"]["units"]["boss"]["buffs"]["countFont"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["boss"]["buffs"]["countFont"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["boss"]["buffs"]["countPosition"] = "BOTTOM"
 E.db["unitframe"]["units"]["boss"]["buffs"]["countXOffset"] = 2
 E.db["unitframe"]["units"]["boss"]["buffs"]["countYOffset"] = -4
@@ -490,7 +470,7 @@ E.db["unitframe"]["units"]["boss"]["castbar"]["width"] = 160
 E.db["unitframe"]["units"]["boss"]["customTexts"]["Power text"] = {
             ["attachTextTo"] = "Health",
             ["enable"] = true,
-            ["font"] = "-FafnyirUI_Bold",
+            ["font"] = "-FafnyirUI",
             ["fontOutline"] = "OUTLINE",
             ["justifyH"] = "RIGHT",
             ["size"] = 14,
@@ -499,7 +479,7 @@ E.db["unitframe"]["units"]["boss"]["customTexts"]["Power text"] = {
             ["yOffset"] = -14
         }
 E.db["unitframe"]["units"]["boss"]["debuffs"]["anchorPoint"] = "RIGHT"
-E.db["unitframe"]["units"]["boss"]["debuffs"]["countFont"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["boss"]["debuffs"]["countFont"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["boss"]["debuffs"]["countPosition"] = "BOTTOM"
 E.db["unitframe"]["units"]["boss"]["debuffs"]["countYOffset"] = -4
 E.db["unitframe"]["units"]["boss"]["debuffs"]["perrow"] = 2
@@ -542,7 +522,7 @@ E.db["unitframe"]["units"]["party"]["ROLE1"] = "HEALER"
 E.db["unitframe"]["units"]["party"]["ROLE2"] = "TANK"
 E.db["unitframe"]["units"]["party"]["buffIndicator"]["size"] = 10
 E.db["unitframe"]["units"]["party"]["buffs"]["anchorPoint"] = "TOPRIGHT"
-E.db["unitframe"]["units"]["party"]["buffs"]["countFont"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["party"]["buffs"]["countFont"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["party"]["buffs"]["countPosition"] = "BOTTOM"
 E.db["unitframe"]["units"]["party"]["buffs"]["countYOffset"] = -4
 E.db["unitframe"]["units"]["party"]["buffs"]["enable"] = true
@@ -554,7 +534,7 @@ E.db["unitframe"]["units"]["party"]["buffs"]["yOffset"] = -15
 E.db["unitframe"]["units"]["party"]["classbar"]["enable"] = false
 E.db["unitframe"]["units"]["party"]["debuffs"]["anchorPoint"] = "LEFT"
 E.db["unitframe"]["units"]["party"]["debuffs"]["clickThrough"] = true
-E.db["unitframe"]["units"]["party"]["debuffs"]["countFont"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["party"]["debuffs"]["countFont"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["party"]["debuffs"]["countPosition"] = "BOTTOM"
 E.db["unitframe"]["units"]["party"]["debuffs"]["countYOffset"] = -4
 E.db["unitframe"]["units"]["party"]["debuffs"]["perrow"] = 2
@@ -588,7 +568,7 @@ E.db["unitframe"]["units"]["party"]["raidicon"]["size"] = 12
 E.db["unitframe"]["units"]["party"]["raidicon"]["xOffset"] = -3
 E.db["unitframe"]["units"]["party"]["raidicon"]["yOffset"] = -10
 E.db["unitframe"]["units"]["party"]["rdebuffs"]["enable"] = false
-E.db["unitframe"]["units"]["party"]["rdebuffs"]["font"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["party"]["rdebuffs"]["font"] = "vixar"
 E.db["unitframe"]["units"]["party"]["rdebuffs"]["fontOutline"] = "OUTLINE"
 E.db["unitframe"]["units"]["party"]["rdebuffs"]["size"] = 18
 E.db["unitframe"]["units"]["party"]["rdebuffs"]["stack"]["position"] = "RIGHT"
@@ -631,7 +611,7 @@ E.db["unitframe"]["units"]["player"]["RestIcon"]["texture"] = "Resting2"
 E.db["unitframe"]["units"]["player"]["RestIcon"]["yOffset"] = 20
 E.db["unitframe"]["units"]["player"]["aurabar"]["enable"] = false
 E.db["unitframe"]["units"]["player"]["castbar"]["customTextFont"]["enable"] = true
-E.db["unitframe"]["units"]["player"]["castbar"]["customTextFont"]["font"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["player"]["castbar"]["customTextFont"]["font"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["player"]["castbar"]["customTextFont"]["fontSize"] = 14
 E.db["unitframe"]["units"]["player"]["castbar"]["customTextFont"]["fontStyle"] = "NONE"
 E.db["unitframe"]["units"]["player"]["castbar"]["customTimeFont"]["enable"] = true
@@ -676,7 +656,7 @@ E.db["unitframe"]["units"]["raid"]["buffs"]["anchorPoint"] = "TOPRIGHT"
 E.db["unitframe"]["units"]["raid"]["classbar"]["enable"] = false
 E.db["unitframe"]["units"]["raid"]["debuffs"]["anchorPoint"] = "TOPLEFT"
 E.db["unitframe"]["units"]["raid"]["debuffs"]["clickThrough"] = true
-E.db["unitframe"]["units"]["raid"]["debuffs"]["countFont"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["raid"]["debuffs"]["countFont"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["raid"]["debuffs"]["countFontSize"] = 11
 E.db["unitframe"]["units"]["raid"]["debuffs"]["countPosition"] = "BOTTOM"
 E.db["unitframe"]["units"]["raid"]["debuffs"]["countXOffset"] = 1
@@ -716,7 +696,7 @@ E.db["unitframe"]["units"]["raid40"]["buffs"]["anchorPoint"] = "TOPRIGHT"
 E.db["unitframe"]["units"]["raid40"]["classbar"]["enable"] = false
 E.db["unitframe"]["units"]["raid40"]["debuffs"]["anchorPoint"] = "TOPLEFT"
 E.db["unitframe"]["units"]["raid40"]["debuffs"]["clickThrough"] = true
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["countFont"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["raid40"]["debuffs"]["countFont"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["raid40"]["debuffs"]["countFontSize"] = 10
 E.db["unitframe"]["units"]["raid40"]["debuffs"]["countPosition"] = "BOTTOM"
 E.db["unitframe"]["units"]["raid40"]["debuffs"]["countYOffset"] = -4
@@ -750,7 +730,7 @@ E.db["unitframe"]["units"]["raid40"]["verticalSpacing"] = -1
 E.db["unitframe"]["units"]["raid40"]["width"] = 90
 E.db["unitframe"]["units"]["tank"]["enable"] = false
 E.db["unitframe"]["units"]["target"]["aurabar"]["enable"] = false
-E.db["unitframe"]["units"]["target"]["buffs"]["countFont"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["target"]["buffs"]["countFont"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["target"]["buffs"]["countPosition"] = "TOP"
 E.db["unitframe"]["units"]["target"]["buffs"]["countYOffset"] = 6
 E.db["unitframe"]["units"]["target"]["buffs"]["numrows"] = 2
@@ -759,10 +739,10 @@ E.db["unitframe"]["units"]["target"]["buffs"]["priority"] = "Blacklist,Personal,
 E.db["unitframe"]["units"]["target"]["buffs"]["sizeOverride"] = 25
 E.db["unitframe"]["units"]["target"]["buffs"]["yOffset"] = 18
 E.db["unitframe"]["units"]["target"]["castbar"]["customTextFont"]["enable"] = true
-E.db["unitframe"]["units"]["target"]["castbar"]["customTextFont"]["font"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["target"]["castbar"]["customTextFont"]["font"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["target"]["castbar"]["customTextFont"]["fontStyle"] = "NONE"
 E.db["unitframe"]["units"]["target"]["castbar"]["customTimeFont"]["enable"] = true
-E.db["unitframe"]["units"]["target"]["castbar"]["customTimeFont"]["font"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["target"]["castbar"]["customTimeFont"]["font"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["target"]["castbar"]["customTimeFont"]["fontStyle"] = "NONE"
 E.db["unitframe"]["units"]["target"]["castbar"]["height"] = 20
 E.db["unitframe"]["units"]["target"]["castbar"]["iconAttached"] = false
@@ -776,7 +756,7 @@ E.db["unitframe"]["units"]["target"]["castbar"]["width"] = 196
 E.db["unitframe"]["units"]["target"]["customTexts"]["Power text"] = {
             ["attachTextTo"] = "Health",
             ["enable"] = true,
-            ["font"] = "-FafnyirUI_Bold",
+            ["font"] = "-FafnyirUI",
             ["fontOutline"] = "NONE",
             ["justifyH"] = "RIGHT",
             ["size"] = 16,
@@ -786,7 +766,7 @@ E.db["unitframe"]["units"]["target"]["customTexts"]["Power text"] = {
         }
 E.db["unitframe"]["units"]["target"]["debuffs"]["anchorPoint"] = "TOPLEFT"
 E.db["unitframe"]["units"]["target"]["debuffs"]["attachTo"] = "FRAME"
-E.db["unitframe"]["units"]["target"]["debuffs"]["countFont"] = "-FafnyirUI_Bold"
+E.db["unitframe"]["units"]["target"]["debuffs"]["countFont"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["target"]["debuffs"]["countPosition"] = "TOP"
 E.db["unitframe"]["units"]["target"]["debuffs"]["countYOffset"] = 6
 E.db["unitframe"]["units"]["target"]["debuffs"]["growthX"] = "RIGHT"
@@ -825,6 +805,7 @@ E.db["unitframe"]["units"]["targettarget"]["power"]["enable"] = false
 E.db["unitframe"]["units"]["targettarget"]["power"]["height"] = 5
 E.db["unitframe"]["units"]["targettarget"]["raidicon"]["enable"] = false
 E.db["unitframe"]["units"]["targettarget"]["width"] = 100
+
 
 
 
