@@ -326,7 +326,7 @@ E.db["movers"]["ReputationBarMover"] = "TOP,ElvUIParent,TOP,0,-35"
 E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,53"
 E.db["movers"]["ShiftAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,672,79"
 E.db["movers"]["TalkingHeadFrameMover"] = "TOP,UIParent,TOP,0,-4"
-E.db["movers"]["TargetPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,305,370"
+E.db["movers"]["TargetPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,307,370"
 E.db["movers"]["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-314,2"
 E.db["movers"]["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-55"
 E.db["movers"]["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,216"
@@ -747,9 +747,9 @@ E.db["unitframe"]["units"]["target"]["customTexts"]["Power text"] = {
             ["font"] = "-FafnyirUI",
             ["fontOutline"] = "NONE",
             ["justifyH"] = "RIGHT",
-            ["size"] = 14,
+            ["size"] = 16,
             ["text_format"] = "[powercolor][power:percent]",
-            ["xOffset"] = 2,
+            ["xOffset"] = 4,
             ["yOffset"] = -22
         }
 
