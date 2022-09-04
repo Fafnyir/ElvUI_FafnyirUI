@@ -21,7 +21,7 @@ local E, L, V, P, G = unpack(ElvUI)
 local EP = LibStub("LibElvUIPlugin-1.0")
 
 --Create a new ElvUI module so ElvUI can handle initialization when ready
-local FNUI = E:NewModule(MyPluginName, "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0");
+local mod = E:NewModule(MyPluginName, "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0");
 
 --This function will hold your layout settings
 local function SetupLayout(layout)
