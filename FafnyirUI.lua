@@ -46,6 +46,7 @@ E.private["nameplates"]["enable"] = false
 E.private["skins"]["checkBoxSkin"] = false
 E.private["skins"]["parchmentRemoverEnable"] = true
 
+
 -- Actionbar Settings
 E.db["actionbar"]["bar1"]["countFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["bar1"]["hotkeyFont"] = "-FafnyirUI_Bold"
@@ -396,8 +397,8 @@ E.db["unitframe"]["cooldown"]["fonts"]["enable"] = true
 E.db["unitframe"]["cooldown"]["fonts"]["font"] = "-FafnyirUI_Bold"
 E.db["unitframe"]["cooldown"]["threshold"] = -1
 E.db["unitframe"]["font"] = "-FafnyirUI_Bold"
-E.db["unitframe"]["fontOutline"] = "NONE"
-E.db["unitframe"]["fontSize"] = 16
+E.db["unitframe"]["fontOutline"] = "OUTLINE"
+E.db["unitframe"]["fontSize"] = 14
 E.db["unitframe"]["smartRaidFilter"] = false
 E.db["unitframe"]["statusbar"] = "- FafnyirUI Clean"
 E.db["unitframe"]["targetOnMouseDown"] = true
@@ -595,12 +596,11 @@ E.db["unitframe"]["units"]["player"]["castbar"]["enable"] = true
 E.db["unitframe"]["units"]["player"]["castbar"]["customTextFont"]["enable"] = true
 E.db["unitframe"]["units"]["player"]["castbar"]["customTextFont"]["font"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["player"]["castbar"]["customTextFont"]["fontSize"] = 14
-E.db["unitframe"]["units"]["player"]["castbar"]["customTextFont"]["fontStyle"] = "NONE"
 E.db["unitframe"]["units"]["player"]["castbar"]["customTimeFont"]["enable"] = true
 E.db["unitframe"]["units"]["player"]["castbar"]["customTimeFont"]["font"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["player"]["castbar"]["customTimeFont"]["fontSize"] = 14
-E.db["unitframe"]["units"]["player"]["castbar"]["customTimeFont"]["fontStyle"] = "NONE"
 E.db["unitframe"]["units"]["player"]["castbar"]["height"] = 24
+E.db["unitframe"]["units"]["player"]["castbar"]["icon"] = true
 E.db["unitframe"]["units"]["player"]["castbar"]["iconAttachedTo"] = "Castbar"
 E.db["unitframe"]["units"]["player"]["castbar"]["iconSize"] = 24
 E.db["unitframe"]["units"]["player"]["castbar"]["iconXOffset"] = 0
@@ -637,84 +637,27 @@ E.db["unitframe"]["units"]["player"]["raidicon"]["enable"] = false
 E.db["unitframe"]["units"]["player"]["raidicon"]["yOffset"] = 2
 E.db["unitframe"]["units"]["player"]["threatStyle"] = "NONE"
 E.db["unitframe"]["units"]["player"]["width"] = 220
-E.db["unitframe"]["units"]["raid"]["buffs"]["anchorPoint"] = "TOPRIGHT"
-E.db["unitframe"]["units"]["raid"]["classbar"]["enable"] = false
-E.db["unitframe"]["units"]["raid"]["debuffs"]["anchorPoint"] = "TOPLEFT"
-E.db["unitframe"]["units"]["raid"]["debuffs"]["clickThrough"] = true
-E.db["unitframe"]["units"]["raid"]["debuffs"]["countFont"] = "-FafnyirUI"
-E.db["unitframe"]["units"]["raid"]["debuffs"]["countFontSize"] = 11
-E.db["unitframe"]["units"]["raid"]["debuffs"]["countPosition"] = "BOTTOM"
-E.db["unitframe"]["units"]["raid"]["debuffs"]["countXOffset"] = 1
-E.db["unitframe"]["units"]["raid"]["debuffs"]["countYOffset"] = -4
-E.db["unitframe"]["units"]["raid"]["debuffs"]["enable"] = true
-E.db["unitframe"]["units"]["raid"]["debuffs"]["priority"] = "Blacklist,Personal,nonPersonal"
-E.db["unitframe"]["units"]["raid"]["debuffs"]["sizeOverride"] = 20
-E.db["unitframe"]["units"]["raid"]["debuffs"]["xOffset"] = 1
-E.db["unitframe"]["units"]["raid"]["debuffs"]["yOffset"] = -22
-E.db["unitframe"]["units"]["raid"]["disableTargetGlow"] = true
-E.db["unitframe"]["units"]["raid"]["groupBy"] = "ROLE"
-E.db["unitframe"]["units"]["raid"]["growthDirection"] = "UP_LEFT"
-E.db["unitframe"]["units"]["raid"]["healPrediction"]["enable"] = false
-E.db["unitframe"]["units"]["raid"]["health"]["text_format"] = ""
-E.db["unitframe"]["units"]["raid"]["health"]["yOffset"] = 4
-E.db["unitframe"]["units"]["raid"]["height"] = 46
-E.db["unitframe"]["units"]["raid"]["horizontalSpacing"] = -1
-E.db["unitframe"]["units"]["raid"]["name"]["text_format"] = "[name:short]"
-E.db["unitframe"]["units"]["raid"]["numGroups"] = 4
-E.db["unitframe"]["units"]["raid"]["power"]["enable"] = false
-E.db["unitframe"]["units"]["raid"]["raidicon"]["attachTo"] = "TOPRIGHT"
-E.db["unitframe"]["units"]["raid"]["raidicon"]["enable"] = false
-E.db["unitframe"]["units"]["raid"]["raidicon"]["yOffset"] = 0
-E.db["unitframe"]["units"]["raid"]["rdebuffs"]["enable"] = false
-E.db["unitframe"]["units"]["raid"]["rdebuffs"]["font"] = "vixar"
-E.db["unitframe"]["units"]["raid"]["rdebuffs"]["fontOutline"] = "OUTLINE"
-E.db["unitframe"]["units"]["raid"]["rdebuffs"]["size"] = 17
-E.db["unitframe"]["units"]["raid"]["rdebuffs"]["stack"]["position"] = "RIGHT"
-E.db["unitframe"]["units"]["raid"]["rdebuffs"]["stack"]["xOffset"] = 4
-E.db["unitframe"]["units"]["raid"]["rdebuffs"]["stack"]["yOffset"] = -5
-E.db["unitframe"]["units"]["raid"]["rdebuffs"]["xOffset"] = 69
-E.db["unitframe"]["units"]["raid"]["rdebuffs"]["yOffset"] = 2
-E.db["unitframe"]["units"]["raid"]["roleIcon"]["enable"] = false
-E.db["unitframe"]["units"]["raid"]["threatStyle"] = "NONE"
-E.db["unitframe"]["units"]["raid"]["verticalSpacing"] = -1
-E.db["unitframe"]["units"]["raid"]["width"] = 90
-E.db["unitframe"]["units"]["raid40"]["buffs"]["anchorPoint"] = "TOPRIGHT"
-E.db["unitframe"]["units"]["raid40"]["classbar"]["enable"] = false
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["anchorPoint"] = "TOPLEFT"
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["clickThrough"] = true
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["countFont"] = "-FafnyirUI"
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["countFontSize"] = 10
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["countPosition"] = "BOTTOM"
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["countYOffset"] = -4
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["enable"] = true
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["priority"] = "Blacklist,Personal,nonPersonal"
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["sizeOverride"] = 16
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["xOffset"] = 1
-E.db["unitframe"]["units"]["raid40"]["debuffs"]["yOffset"] = -18
-E.db["unitframe"]["units"]["raid40"]["disableTargetGlow"] = true
-E.db["unitframe"]["units"]["raid40"]["growthDirection"] = "LEFT_UP"
-E.db["unitframe"]["units"]["raid40"]["healPrediction"]["enable"] = false
-E.db["unitframe"]["units"]["raid40"]["health"]["text_format"] = ""
-E.db["unitframe"]["units"]["raid40"]["health"]["yOffset"] = 4
-E.db["unitframe"]["units"]["raid40"]["height"] = 46
-E.db["unitframe"]["units"]["raid40"]["horizontalSpacing"] = -1
-E.db["unitframe"]["units"]["raid40"]["name"]["text_format"] = "[name:short]"
-E.db["unitframe"]["units"]["raid40"]["raidicon"]["attachTo"] = "TOPRIGHT"
-E.db["unitframe"]["units"]["raid40"]["raidicon"]["enable"] = false
-E.db["unitframe"]["units"]["raid40"]["raidicon"]["yOffset"] = 0
-E.db["unitframe"]["units"]["raid40"]["rdebuffs"]["font"] = "vixar"
-E.db["unitframe"]["units"]["raid40"]["rdebuffs"]["fontOutline"] = "OUTLINE"
-E.db["unitframe"]["units"]["raid40"]["rdebuffs"]["size"] = 17
-E.db["unitframe"]["units"]["raid40"]["rdebuffs"]["stack"]["position"] = "RIGHT"
-E.db["unitframe"]["units"]["raid40"]["rdebuffs"]["stack"]["xOffset"] = 4
-E.db["unitframe"]["units"]["raid40"]["rdebuffs"]["stack"]["yOffset"] = -5
-E.db["unitframe"]["units"]["raid40"]["rdebuffs"]["xOffset"] = 69
-E.db["unitframe"]["units"]["raid40"]["rdebuffs"]["yOffset"] = 2
-E.db["unitframe"]["units"]["raid40"]["roleIcon"]["xOffset"] = 1
-E.db["unitframe"]["units"]["raid40"]["roleIcon"]["yOffset"] = -1
-E.db["unitframe"]["units"]["raid40"]["threatStyle"] = "NONE"
-E.db["unitframe"]["units"]["raid40"]["verticalSpacing"] = -1
-E.db["unitframe"]["units"]["raid40"]["width"] = 90
+E.db["unitframe"]["units"]["raid1"]["growthDirection"] = "UP_LEFT"
+E.db["unitframe"]["units"]["raid1"]["health"]["text_format"] = ""
+E.db["unitframe"]["units"]["raid1"]["height"] = 46
+E.db["unitframe"]["units"]["raid1"]["horizontalSpacing"] = -1
+E.db["unitframe"]["units"]["raid1"]["name"]["text_format"] = "[name:short]"
+E.db["unitframe"]["units"]["raid1"]["power"]["enable"] = false
+E.db["unitframe"]["units"]["raid1"]["verticalSpacing"] = -1
+E.db["unitframe"]["units"]["raid1"]["width"] = 90
+E.db["unitframe"]["units"]["raid2"]["growthDirection"] = "UP_LEFT"
+E.db["unitframe"]["units"]["raid2"]["health"]["text_format"] = ""
+E.db["unitframe"]["units"]["raid2"]["height"] = 46
+E.db["unitframe"]["units"]["raid2"]["horizontalSpacing"] = -1
+E.db["unitframe"]["units"]["raid2"]["name"]["text_format"] = "[name:short]"
+E.db["unitframe"]["units"]["raid2"]["verticalSpacing"] = -1
+E.db["unitframe"]["units"]["raid2"]["width"] = 90
+E.db["unitframe"]["units"]["raid3"]["health"]["text_format"] = ""
+E.db["unitframe"]["units"]["raid3"]["height"] = 23
+E.db["unitframe"]["units"]["raid3"]["horizontalSpacing"] = -1
+E.db["unitframe"]["units"]["raid3"]["name"]["text_format"] = "[name:short]"
+E.db["unitframe"]["units"]["raid3"]["verticalSpacing"] = -1
+E.db["unitframe"]["units"]["raid3"]["width"] = 90
 E.db["unitframe"]["units"]["tank"]["enable"] = false
 E.db["unitframe"]["units"]["target"]["aurabar"]["enable"] = false
 E.db["unitframe"]["units"]["target"]["buffs"]["countFont"] = "-FafnyirUI"
@@ -728,10 +671,8 @@ E.db["unitframe"]["units"]["target"]["buffs"]["yOffset"] = 18
 E.db["unitframe"]["units"]["target"]["castbar"]["enable"] = true
 E.db["unitframe"]["units"]["target"]["castbar"]["customTextFont"]["enable"] = true
 E.db["unitframe"]["units"]["target"]["castbar"]["customTextFont"]["font"] = "-FafnyirUI"
-E.db["unitframe"]["units"]["target"]["castbar"]["customTextFont"]["fontStyle"] = "NONE"
 E.db["unitframe"]["units"]["target"]["castbar"]["customTimeFont"]["enable"] = true
 E.db["unitframe"]["units"]["target"]["castbar"]["customTimeFont"]["font"] = "-FafnyirUI"
-E.db["unitframe"]["units"]["target"]["castbar"]["customTimeFont"]["fontStyle"] = "NONE"
 E.db["unitframe"]["units"]["target"]["castbar"]["height"] = 20
 E.db["unitframe"]["units"]["target"]["castbar"]["iconAttached"] = false
 E.db["unitframe"]["units"]["target"]["castbar"]["iconAttachedTo"] = "Castbar"
@@ -845,7 +786,7 @@ end
 local InstallerData = {
 	Title = format("|cFFDA70D6%s %s|r", MyPluginName, "Installation"),
 	Name = MyPluginName,
-	tutorialImage = "Interface\\AddOns\\ElvUI_FafnyirUI\\media\\logo\\Logo.tga", --If you have a logo you want to use, otherwise it uses the one from ElvUI
+	tutorialImage = "Interface\\AddOns\\ElvUI_FafnyirUI\\logo.tga", --If you have a logo you want to use, otherwise it uses the one from ElvUI
 	Pages = {
 		[1] = function()
 			PluginInstallFrame.SubTitle:SetFormattedText("Welcome to the installation for %s.", MyPluginName)
@@ -979,7 +920,7 @@ end
 P[MyPluginName] = {}
 
 --This function will handle initialization of the addon
-function FNUI:Initialize()
+function mod:Initialize()
 	--Initiate installation process if ElvUI install is complete and our plugin install has not yet been run
 	if E.private.install_complete and E.db[MyPluginName].install_version == nil then
 		E:GetModule("PluginInstaller"):Queue(InstallerData)
@@ -990,4 +931,4 @@ function FNUI:Initialize()
 end
 
 --Register module with callback so it gets initialized when ready
-E:RegisterModule(FNUI:GetName())
+E:RegisterModule(mod:GetName())
