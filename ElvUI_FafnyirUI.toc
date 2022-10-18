@@ -1,6 +1,6 @@
 ## Interface: 90207
 ## Author: Fafnyir
-## Version: 1.00
+## Version: 1.01
 ## Title: |cFFDA70D6FafnyirUI|r |cfd9b9b9bInstaller|r
 ## Notes: Contains 1440 Layout from Fafnyir
 ## RequiredDeps: ElvUI
