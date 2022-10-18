@@ -36,9 +36,9 @@ if not E.db.movers then E.db.movers = {} end
 E.private["bags"]["enable"] = false
 E.private["general"]["chatBubbleFont"] = "-FafnyirUI"
 E.private["general"]["chatBubbles"] = "nobackdrop"
-E.private["general"]["dmgfont"] = "-FafnyirUI_Black"
+E.private["general"]["dmgfont"] = "- BOLTZZ"
 E.private["general"]["glossTex"] = "- FafnyirUI Clean"
-E.private["general"]["namefont"] = "-FafnyirUI_Bold"
+E.private["general"]["namefont"] = "-FafnyirUI"
 E.private["general"]["nameplateFont"] = "-FafnyirUI"
 E.private["general"]["nameplateLargeFont"] = "-FafnyirUI_Bold"
 E.private["general"]["normTex"] = "- FafnyirUI Clean"
@@ -57,12 +57,14 @@ E.db["actionbar"]["bar2"]["enabled"] = true
 E.db["actionbar"]["bar2"]["hotkeyFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["bar2"]["inheritGlobalFade"] = true
 E.db["actionbar"]["bar2"]["macroFont"] = "-FafnyirUI_Bold"
+E.db["actionbar"]["bar3"]["enabled"] = true
 E.db["actionbar"]["bar3"]["buttonSize"] = 28
 E.db["actionbar"]["bar3"]["buttons"] = 12
 E.db["actionbar"]["bar3"]["countFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["bar3"]["hotkeyFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["bar3"]["inheritGlobalFade"] = true
 E.db["actionbar"]["bar3"]["macroFont"] = "-FafnyirUI_Bold"
+E.db["actionbar"]["bar4"]["enabled"] = true
 E.db["actionbar"]["bar4"]["backdrop"] = false
 E.db["actionbar"]["bar4"]["buttonSize"] = 28
 E.db["actionbar"]["bar4"]["buttonsPerRow"] = 6
@@ -70,6 +72,7 @@ E.db["actionbar"]["bar4"]["countFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["bar4"]["hotkeyFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["bar4"]["inheritGlobalFade"] = true
 E.db["actionbar"]["bar4"]["macroFont"] = "-FafnyirUI_Bold"
+E.db["actionbar"]["bar5"]["enabled"] = true
 E.db["actionbar"]["bar5"]["buttons"] = 12
 E.db["actionbar"]["bar5"]["buttonsPerRow"] = 12
 E.db["actionbar"]["bar5"]["countFont"] = "-FafnyirUI_Bold"
@@ -179,6 +182,8 @@ E.db["cooldown"]["fonts"]["enable"] = true
 E.db["cooldown"]["fonts"]["font"] = "-FafnyirUI_Bold"
 E.db["cooldown"]["secondsColor"]["b"] = 1
 E.db["cooldown"]["threshold"] = -1
+
+-- Databars
 E.db["databars"]["azerite"]["enable"] = false
 E.db["databars"]["azerite"]["font"] = "-FafnyirUI"
 E.db["databars"]["azerite"]["fontOutline"] = "OUTLINE"
@@ -204,6 +209,8 @@ E.db["databars"]["reputation"]["height"] = 5
 E.db["databars"]["reputation"]["width"] = 340
 E.db["databars"]["statusbar"] = "Melli"
 E.db["databars"]["threat"]["enable"] = false
+
+-- Datatexts
 E.db["datatexts"]["font"] = "-FafnyirUI"
 E.db["datatexts"]["fontOutline"] = "OUTLINE"
 E.db["datatexts"]["fontSize"] = 14
@@ -219,6 +226,8 @@ E.db["datatexts"]["panels"]["MinimapPanel"]["numPoints"] = 1
 E.db["datatexts"]["panels"]["MinimapPanel"]["panelTransparency"] = true
 E.db["datatexts"]["panels"]["RightChatDataPanel"]["enable"] = false
 E.db["datatexts"]["panels"]["RightMiniPanel"] = "ElvUI Config"
+
+-- General
 E.db["general"]["afk"] = true
 E.db["general"]["altPowerBar"]["font"] = "-FafnyirUI"
 E.db["general"]["altPowerBar"]["fontSize"] = 14
@@ -246,6 +255,7 @@ E.db["general"]["valuecolor"]["b"] = 0.99
 E.db["general"]["valuecolor"]["g"] = 0.99
 E.db["general"]["valuecolor"]["r"] = 0.99
 
+-- Movers
 E.db["movers"]["AlertFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,49,-35"
 E.db["movers"]["AltPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,120"
 E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-457,-373"
@@ -253,7 +263,7 @@ E.db["movers"]["ArtifactBarMover"] = "TOP,ElvUIParent,TOP,0,-4"
 E.db["movers"]["AzeriteBarMover"] = "TOP,ElvUIParent,TOP,0,-7"
 E.db["movers"]["BNETMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-5,-205"
 E.db["movers"]["BelowMinimapContainerMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-366,-346"
-E.db["movers"]["BossButton"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,36"
+E.db["movers"]["BossButton"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-536,33"
 E.db["movers"]["BossHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-390,393"
 E.db["movers"]["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-193,-5"
 E.db["movers"]["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,381"
@@ -297,13 +307,14 @@ E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,53"
 E.db["movers"]["ShiftAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,672,79"
 E.db["movers"]["TalkingHeadFrameMover"] = "TOP,UIParent,TOP,0,-4"
 E.db["movers"]["TargetPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,305,370"
-E.db["movers"]["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-314,2"
+E.db["movers"]["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-339,67"
 E.db["movers"]["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-55"
 E.db["movers"]["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,216"
 E.db["movers"]["VehicleLeaveButton"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-674,78"
 E.db["movers"]["VehicleSeatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,457,34"
-E.db["movers"]["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-471,36"
+E.db["movers"]["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-536,102"
 
+-- Tooltip
 E.db["tooltip"]["font"] = "-FafnyirUI"
 E.db["tooltip"]["fontOutline"] = "OUTLINE"
 E.db["tooltip"]["headerFont"] = "-FafnyirUI_Bold"
@@ -313,6 +324,8 @@ E.db["tooltip"]["healthBar"]["statusPosition"] = "TOP"
 E.db["tooltip"]["role"] = false
 E.db["tooltip"]["targetInfo"] = false
 E.db["tooltip"]["visibility"]["combatOverride"] = "HIDE"
+
+-- Unit Frames
 E.db["unitframe"]["colors"]["auraBarBuff"]["b"] = 0.94
 E.db["unitframe"]["colors"]["auraBarBuff"]["g"] = 0.8
 E.db["unitframe"]["colors"]["auraBarBuff"]["r"] = 0.41
@@ -415,7 +428,6 @@ E.db["unitframe"]["units"]["boss"]["buffs"]["xOffset"] = 2
 E.db["unitframe"]["units"]["boss"]["buffs"]["yOffset"] = -15
 E.db["unitframe"]["units"]["boss"]["castbar"]["height"] = 12
 E.db["unitframe"]["units"]["boss"]["castbar"]["width"] = 160
-
 E.db["unitframe"]["units"]["boss"]["customTexts"] = E.db["unitframe"]["units"]["boss"]["customTexts"] or {}
 E.db["unitframe"]["units"]["boss"]["customTexts"]["Power text"] = {
             ["attachTextTo"] = "Health",
@@ -428,7 +440,6 @@ E.db["unitframe"]["units"]["boss"]["customTexts"]["Power text"] = {
             ["xOffset"] = 1,
             ["yOffset"] = -14
         }
-
 E.db["unitframe"]["units"]["boss"]["debuffs"]["anchorPoint"] = "RIGHT"
 E.db["unitframe"]["units"]["boss"]["debuffs"]["countFont"] = "-FafnyirUI"
 E.db["unitframe"]["units"]["boss"]["debuffs"]["countPosition"] = "BOTTOM"
@@ -454,7 +465,6 @@ E.db["unitframe"]["units"]["boss"]["power"]["text_format"] = "[powercolor][power
 E.db["unitframe"]["units"]["boss"]["power"]["xOffset"] = 2
 E.db["unitframe"]["units"]["boss"]["spacing"] = 17
 E.db["unitframe"]["units"]["boss"]["width"] = 160
-
 E.db["unitframe"]["units"]["focus"]["castbar"]["enable"] = false
 E.db["unitframe"]["units"]["focus"]["castbar"]["height"] = 28
 E.db["unitframe"]["units"]["focus"]["castbar"]["width"] = 340
@@ -462,14 +472,14 @@ E.db["unitframe"]["units"]["focus"]["debuffs"]["anchorPoint"] = "BOTTOMRIGHT"
 E.db["unitframe"]["units"]["focus"]["debuffs"]["enable"] = false
 E.db["unitframe"]["units"]["focus"]["disableTargetGlow"] = true
 E.db["unitframe"]["units"]["focus"]["height"] = 12
-E.db["unitframe"]["units"]["focus"]["name"]["text_format"] = "[name:short]"
+E.db["unitframe"]["units"]["focus"]["name"]["attachTextTo"] = "Frame"
+E.db["unitframe"]["units"]["focus"]["name"]["text_format"] = "[name:abbrev:medium]"
 E.db["unitframe"]["units"]["focus"]["name"]["yOffset"] = -4
 E.db["unitframe"]["units"]["focus"]["power"]["enable"] = false
 E.db["unitframe"]["units"]["focus"]["power"]["height"] = 5
 E.db["unitframe"]["units"]["focus"]["raidicon"]["enable"] = false
 E.db["unitframe"]["units"]["focus"]["threatStyle"] = "NONE"
 E.db["unitframe"]["units"]["focus"]["width"] = 100
-
 E.db["unitframe"]["units"]["party"]["ROLE1"] = "HEALER"
 E.db["unitframe"]["units"]["party"]["ROLE2"] = "TANK"
 E.db["unitframe"]["units"]["party"]["buffIndicator"]["size"] = 10
@@ -538,7 +548,6 @@ E.db["unitframe"]["units"]["party"]["showPlayer"] = false
 E.db["unitframe"]["units"]["party"]["threatStyle"] = "NONE"
 E.db["unitframe"]["units"]["party"]["verticalSpacing"] = 10
 E.db["unitframe"]["units"]["party"]["width"] = 160
-
 E.db["unitframe"]["units"]["pet"]["buffs"]["priority"] = "CastByNPC"
 E.db["unitframe"]["units"]["pet"]["buffs"]["sizeOverride"] = 46
 E.db["unitframe"]["units"]["pet"]["castbar"]["enable"] = false
@@ -570,7 +579,6 @@ E.db["unitframe"]["units"]["pet"]["power"]["enable"] = false
 E.db["unitframe"]["units"]["pet"]["power"]["height"] = 5
 E.db["unitframe"]["units"]["pet"]["threatStyle"] = "NONE"
 E.db["unitframe"]["units"]["pet"]["width"] = 100
-
 E.db["unitframe"]["units"]["player"]["RestIcon"]["hideAtMaxLevel"] = true
 E.db["unitframe"]["units"]["player"]["RestIcon"]["texture"] = "Resting2"
 E.db["unitframe"]["units"]["player"]["RestIcon"]["yOffset"] = 20
@@ -593,7 +601,6 @@ E.db["unitframe"]["units"]["player"]["castbar"]["width"] = 220
 E.db["unitframe"]["units"]["player"]["classbar"]["detachFromFrame"] = true
 E.db["unitframe"]["units"]["player"]["classbar"]["enable"] = false
 E.db["unitframe"]["units"]["player"]["classbar"]["height"] = 15
-
 E.db["unitframe"]["units"]["player"]["customTexts"] = E.db["unitframe"]["units"]["player"]["customTexts"] or {}
 E.db["unitframe"]["units"]["player"]["customTexts"]["!Health"] = {
 		["attachTextTo"] = "Health",
@@ -606,7 +613,6 @@ E.db["unitframe"]["units"]["player"]["customTexts"]["!Health"] = {
 		["xOffset"] = 0,
 		["yOffset"] = 20
 }
-
 E.db["unitframe"]["units"]["player"]["debuffs"]["enable"] = false
 E.db["unitframe"]["units"]["player"]["debuffs"]["perrow"] = 6
 E.db["unitframe"]["units"]["player"]["debuffs"]["yOffset"] = 3
@@ -632,7 +638,6 @@ E.db["unitframe"]["units"]["player"]["raidicon"]["enable"] = false
 E.db["unitframe"]["units"]["player"]["raidicon"]["yOffset"] = 2
 E.db["unitframe"]["units"]["player"]["threatStyle"] = "NONE"
 E.db["unitframe"]["units"]["player"]["width"] = 220
-
 E.db["unitframe"]["units"]["raid1"]["growthDirection"] = "UP_LEFT"
 E.db["unitframe"]["units"]["raid1"]["health"]["text_format"] = ""
 E.db["unitframe"]["units"]["raid1"]["height"] = 46
@@ -654,9 +659,7 @@ E.db["unitframe"]["units"]["raid3"]["horizontalSpacing"] = -1
 E.db["unitframe"]["units"]["raid3"]["name"]["text_format"] = "[name:short]"
 E.db["unitframe"]["units"]["raid3"]["verticalSpacing"] = -1
 E.db["unitframe"]["units"]["raid3"]["width"] = 90
-
 E.db["unitframe"]["units"]["tank"]["enable"] = false
-
 E.db["unitframe"]["units"]["target"]["aurabar"]["enable"] = false
 E.db["unitframe"]["units"]["target"]["buffs"]["anchorPoint"] = "TOPLEFT"
 E.db["unitframe"]["units"]["target"]["buffs"]["countFont"] = "-FafnyirUI"
@@ -684,7 +687,6 @@ E.db["unitframe"]["units"]["target"]["castbar"]["textColor"]["b"] = 1
 E.db["unitframe"]["units"]["target"]["castbar"]["textColor"]["g"] = 1
 E.db["unitframe"]["units"]["target"]["castbar"]["textColor"]["r"] = 1
 E.db["unitframe"]["units"]["target"]["castbar"]["width"] = 220
-
 E.db["unitframe"]["units"]["target"]["customTexts"] = E.db["unitframe"]["units"]["target"]["customTexts"] or {}
 E.db["unitframe"]["units"]["target"]["customTexts"]["!Health"] = {
 		["attachTextTo"] = "Health",
@@ -697,7 +699,6 @@ E.db["unitframe"]["units"]["target"]["customTexts"]["!Health"] = {
 		["xOffset"] = 0,
 		["yOffset"] = 20
 }
-
 E.db["unitframe"]["units"]["target"]["debuffs"]["anchorPoint"] = "TOPLEFT"
 E.db["unitframe"]["units"]["target"]["debuffs"]["attachTo"] = "FRAME"
 E.db["unitframe"]["units"]["target"]["debuffs"]["countFont"] = "-FafnyirUI"
@@ -731,10 +732,9 @@ E.db["unitframe"]["units"]["target"]["raidicon"]["enable"] = false
 E.db["unitframe"]["units"]["target"]["raidicon"]["yOffset"] = 2
 E.db["unitframe"]["units"]["target"]["threatStyle"] = "NONE"
 E.db["unitframe"]["units"]["target"]["width"] = 220
-
 E.db["unitframe"]["units"]["targettarget"]["debuffs"]["enable"] = false
 E.db["unitframe"]["units"]["targettarget"]["height"] = 16
-E.db["unitframe"]["units"]["targettarget"]["name"]["position"] = "TOPRIGHT"
+E.db["unitframe"]["units"]["targettarget"]["name"]["position"] = "CENTER"
 E.db["unitframe"]["units"]["targettarget"]["name"]["text_format"] = "[name:short]"
 E.db["unitframe"]["units"]["targettarget"]["name"]["yOffset"] = 15
 E.db["unitframe"]["units"]["targettarget"]["power"]["enable"] = false
