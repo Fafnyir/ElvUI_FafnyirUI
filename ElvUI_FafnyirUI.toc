@@ -7,5 +7,5 @@
 ## DefaultState: enabled
 
 FafnyirUI.lua
-addons\addons.xml
-media\media.xml
+## addons\addons.xml
+## media\media.xml
