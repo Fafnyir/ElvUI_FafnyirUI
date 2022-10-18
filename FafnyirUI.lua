@@ -98,9 +98,10 @@ E.db["actionbar"]["cooldown"]["fonts"]["font"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["cooldown"]["fonts"]["fontSize"] = 14
 E.db["actionbar"]["cooldown"]["override"] = false
 E.db["actionbar"]["cooldown"]["threshold"] = -1
-E.db["actionbar"]["extraActionButton"]["hotkeyFont"] = "-FafnyirUI_Bold"
+E.db["actionbar"]["extraActionButton"]["clean"] = true
+E.db["actionbar"]["extraActionButton"]["hotkeyFont"] = "-FafnyirUI"
 E.db["actionbar"]["extraActionButton"]["hotkeyFontOutline"] = "NONE"
-E.db["actionbar"]["extraActionButton"]["hotkeyFontSize"] = 12
+E.db["actionbar"]["extraActionButton"]["hotkeyFontSize"] = 14
 E.db["actionbar"]["extraActionButton"]["inheritGlobalFade"] = true
 E.db["actionbar"]["font"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["fontOutline"] = "OUTLINE"
@@ -116,6 +117,7 @@ E.db["actionbar"]["useDrawSwipeOnCharges"] = true
 E.db["actionbar"]["vehicleExitButton"]["hotkeyFont"] = "-FafnyirUI_Bold"
 E.db["actionbar"]["vehicleExitButton"]["hotkeyFontOutline"] = "OUTLINE"
 E.db["actionbar"]["vehicleExitButton"]["hotkeyFontSize"] = 12
+E.db["actionbar"]["zoneActionButton"]["clean"] = true
 E.db["actionbar"]["zoneActionButton"]["inheritGlobalFade"] = true
 
 -- Aura Settings
@@ -164,7 +166,6 @@ E.db["chat"]["emotionIcons"] = false
 E.db["chat"]["font"] = "-FafnyirUI"
 E.db["chat"]["fontSize"] = 12
 E.db["chat"]["hideCopyButton"] = true
-E.db["chat"]["hideVoiceButtons"] = true
 E.db["chat"]["lfgIcons"] = false
 E.db["chat"]["panelBackdrop"] = "HIDEBOTH"
 E.db["chat"]["panelHeight"] = 210
@@ -172,9 +173,7 @@ E.db["chat"]["panelHeightRight"] = 266
 E.db["chat"]["panelWidth"] = 450
 E.db["chat"]["panelWidthRight"] = 230
 E.db["chat"]["separateSizes"] = true
-E.db["chat"]["tabFont"] = "-FafnyirUI"
-E.db["chat"]["tabFontOutline"] = "OUTLINE"
-E.db["chat"]["tabFontSize"] = 14
+E.db["chat"]["tabFont"] = "-FafnyirUI_B"
 E.db["convertPages"] = true
 
 -- Cooldown Settings
